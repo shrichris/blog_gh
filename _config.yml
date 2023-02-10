@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: pseudorandom 
-email: shrichris.blog@gmail.com
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
   just notes of stuff.
 baseurl: "/blog_gh" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://shrichris.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shrichris
 github_username:  shrichris
 

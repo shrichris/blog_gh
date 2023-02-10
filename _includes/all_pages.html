@@ -1,0 +1,7 @@
+<ul>
+{% for page in site.pages %}
+    {% if page.title != null %}
+        <li><a href="https://shrichris.github.io/blog_gh{{page.url}}">{{ page.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>

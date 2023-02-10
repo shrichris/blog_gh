@@ -17,25 +17,23 @@ Step by step instructions can be found [here][jekyll-step-by-step]
 Jekyll is a Ruby gem and requires ruby and gem to be installed.
 
 {% highlight console %}
-
-ruby-v
-gem -v
 gem install jekyll bundler
-jekyll -v
-
 {% endhighlight %}
 
 # Create and serve a new Jekyll site on your local machine
 
 {% highlight console %}
-
 jekyll new new-site
 cd new-site
 bundle exec jekyll serve
-
 {% endhighlight %}
 
-bundle exec is required the very forst time. Sunsequntly use jekyll server.
+bundle exec is required when configuration changes need to be aplied. 
+
+For changes to content the following is sufficient.
+{% highlight console %}
+jekyll serve
+{% endhighlight %}
 
 # Managing Draft posts
 
