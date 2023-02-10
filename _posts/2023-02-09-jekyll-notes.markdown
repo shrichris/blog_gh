@@ -6,13 +6,13 @@ categories: notes
 tags: jekyll
 ---
 
-## Getting Started with Jekyll
+# Getting Started with Jekyll
 
 Step by step instructions can be found [here][jekyll-step-by-step]
 
 [Jekyll tutorial][jekyll-playlist] on Youtube
 
-# Prerequisites
+## Prerequisites
 
 Jekyll is a Ruby gem and requires ruby and gem to be installed.
 
@@ -20,7 +20,7 @@ Jekyll is a Ruby gem and requires ruby and gem to be installed.
 gem install jekyll bundler
 {% endhighlight %}
 
-# Create and serve a new Jekyll site on your local machine
+## Create and serve a new Jekyll site on your local machine
 
 {% highlight console %}
 jekyll new new-site
@@ -35,7 +35,7 @@ For changes to content the following is sufficient.
 jekyll serve
 {% endhighlight %}
 
-# Managing Draft posts
+## Managing Draft posts
 
 To serve draft posts in _drafts folder, use
 {% highlight console %}
@@ -46,7 +46,7 @@ drafts are served using current date
 
 Use the default naming convention when a draft post is ready to be published.
 
-# Permalinks
+## Permalinks
 
 Custom permalinks can be crafted to override the Jekyll defauly. For example to avoid using the categories in the post url
 
@@ -54,11 +54,10 @@ Custom permalinks can be crafted to override the Jekyll defauly. For example to 
 permalink: /:year/:month/:day/:title
 {% endhighlight %}
 
-# Front matter defaults
+## Front matter defaults
 
 are defined in the _config.yml file
-
-# Jekyll themes
+## Jekyll themes
 
 [Theme Search](https://rubygems.org/search?query=jekyl-theme)
 
@@ -83,15 +82,13 @@ budle exec
 
 Be aware that if the new theme does not have layouts with the same names as the previous theme, pages will not render.
 
-# Jekyll variables
+## Jekyll variables
 
 List of Jekyll [variables](https://jekyllrb.com/docs/variables/)
-
-# Deploy to github pages
+## Deploy to github pages
 
 [jekyll-playlist]: https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
 [jekyll-step-by-step]: https://jekyllrb.com/docs/step-by-step/01-setup/
-
-# Odds and Ends
+## Odds and Ends
 
 Jekyll uses categories to create url for posts.
