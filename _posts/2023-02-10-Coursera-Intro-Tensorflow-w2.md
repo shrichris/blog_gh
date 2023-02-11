@@ -18,7 +18,7 @@ The test data is used to check the accuracy of a model that has been trained on 
 
 ## Insights
 
-{% highlight python %}
+```python
 model = keras.Sequential([
 # Fashion MNIST images are 28*28 grayscale. The first layer loads an image and flattens from vector to a linear array of values
     keras.layers.Flatten(input_shape=(28,28)),
@@ -28,7 +28,7 @@ model = keras.Sequential([
     keras.layers.Dense(10,activation=tf.nn.softmax)
 ])
 
-{% endhighlight %}
+```
 
 The loss function is used to calculate how well the model did with a guess in a particular iteration.
 The optimzer is used to generate a new guess.

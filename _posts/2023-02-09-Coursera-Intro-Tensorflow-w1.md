@@ -5,7 +5,6 @@ date:   2023-02-09
 categories: notes
 tags: Coursera Intro_Tensorflow 
 ---
-
 # Notes from Week 1 of auditing the course
 
 ## Insights
@@ -17,14 +16,11 @@ The Traditional Programming Paradigm
 
 The Machine Learning Paradigmß
 > (Answers/Labels, Data) -> Rules
-
 ## The "Hello World" of Deep Learning with Neural Networks
 
 Figuring out the relationship between x and y, given a training set with a small number of data points (the training set). The following shows how to fit a line between x and y variables.
 
-[Workbook](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W1/ungraded_lab/C1_W1_Lab_1_hello_world_nn.ipynb)
-
-{% highlight python %}
+```python
 
 import tensorflow as tf
 import numpy as np
@@ -46,8 +42,10 @@ model.fit(xs, ys, epochs=500)
 
 ## Make a prediction
 print(model.predict([10.0]))
+```
 
-{% endhighlight %}
 
 ## Links
+
 * [Tensorflow Playground](http://playground.tensorflow.org/)
+* [Workbook](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W1/ungraded_lab/C1_W1_Lab_1_hello_world_nn.ipynb)

@@ -17,7 +17,7 @@ Image Generator in TF is used to generate training and test/validation images
 
 ## Image Generation
 
-{% highlight python %}
+```python
 from tensorflow.keras.preprocessing.image
 import ImageDataGenerator
 
@@ -43,11 +43,10 @@ train_generator = train_datagen.flow_from_directory(
     # Specifies that this is for binary classification
     class_mode='binary'
 )
-{% endhighlight %}
-
+```
 ## Defining the model
 
-{% highlight python %}
+```python
 model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(16, (3,3), activation='relu', input_shape=(300, 300, 3)),
     tf.keras.layers.MaxPooling2D(2, 2),
@@ -70,20 +69,20 @@ model.compile(loss='binary_crossentropy',
               optimizer=RMSprop(learning_rate=0.001),
               metrics=['accuracy'])
 
-{% endhighlight %}
+```
 
 * Input share is (300, 300, 3) - The 3 indicates the three byte depth for pixels in a colour image
 * The final layer has 1 output as this is a binary classifcifier (There are 2 classes and 1 value is sufficent to encode this information)
 
 ## Fitting the model
 
-{% highlight python %}
+```python
 history = model.fit(
       train_generator,
       steps_per_epoch=8,  
       epochs=15,
       verbose=1)
-{% endhighlight %}
+```
 
 * The Steps per model is defined based on the batch size. 8 steps are needed in the example to load the training set in batches of size 128
 

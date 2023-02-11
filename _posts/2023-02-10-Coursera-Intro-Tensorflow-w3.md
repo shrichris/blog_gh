@@ -5,17 +5,15 @@ date:   2023-02-09
 categories: notes
 tags: Coursera Intro_Tensorflow 
 ---
-
 # Notes from Week 3 of auditing the course
 
 Introduces Convolutional Neural Networks (CNNs) as an improvement over the naive implementation of week 2.
-
 ## Insights
 
 Pooling is way of compressing images e.g. using a 2*2 grid to pick out the pixel with the highest value to quarter the size of the image.
 Convolutions are essentially filters that can be passed over input data to emphasise features e.g. using fliters to highlight vertical or horizontal lines in an image.
 
-{% highlight python %}
+```python
 model = keras.Sequential([
     # Adding convolution and pooling layers
     # (28,28,1) - The 1 is to indicate the single byte depth for the grascale images in FMNIST.
@@ -29,8 +27,7 @@ model = keras.Sequential([
     keras.layers.Dense(128, activation=tf.nn.relu),
     keras.layers.Dense(10,activation=tf.nn.softmax)
 ])
-{% endhighlight %}
-
+```
 ## Output shape changes at each layer due to the effects of convolution and pooling
 
 model.summary can be used to inspect the layers of the model, including the output shapes of each layer
