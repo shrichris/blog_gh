@@ -3,7 +3,10 @@ layout: post
 title:  "Coursera - Introduction to Tensorflow - Week 1"
 date:   2023-02-09 
 categories: notes
-tags: Coursera Intro_Tensorflow 
+learning_platform: [coursera, deeplearning.ai]
+specialization: DeepLearning.AI TensorFlow Developer Professional Certificate
+course: Introduction to Tensorflow
+tags: [Coursera, Intro_Tensorflow] 
 ---
 # Notes from Week 1 of auditing the course
 
@@ -43,9 +46,19 @@ model.fit(xs, ys, epochs=500)
 ## Make a prediction
 print(model.predict([10.0]))
 ```
+## Jupyter Notebooks
 
+* [Notebook - Week 1 - Lab 1](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W1/ungraded_lab/C1_W1_Lab_1_hello_world_nn.ipynb)
 
 ## Links
 
+* [Lecture Notes for this course](https://community.deeplearning.ai/t/tf1-course-1-lecture-notes/124222)
 * [Tensorflow Playground](http://playground.tensorflow.org/)
-* [Workbook](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W1/ungraded_lab/C1_W1_Lab_1_hello_world_nn.ipynb)
+  * [Repo for the Tensorflow Playground](https://github.com/tensorflow/playground)
+  * [Convnet Demo - Andrej Karpathy](https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html)
+  * [Book: Neural Networks and Deep Learning, Michael Nielson](http://neuralnetworksanddeeplearning.com/index.html)
+  * [Book: Deep Learning, Ian Goodfellow, Yoshua Bengio, and Aaron Courville.](https://www.deeplearningbook.org/)
+  
+## To Revisit
+
+The Tensorflow playground was a not entirely intuitive. The explanation of orange vs blue colours (positive and negative values) and how the datasets are depicted on screen do not seem to align. What are the pictorial representation of the datasets conveying?

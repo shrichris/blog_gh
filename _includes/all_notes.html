@@ -1,0 +1,18 @@
+<h1>Notes from Coursera: Intro to Tensorflow</h1>
+<ul>
+    {% for post in site.posts %}
+            {% if post.tags contains 'Intro_Tensorflow' %}
+                <li><a href="https://shrichris.github.io/blog_gh{{post.url}}">{{ post.title }}</a></li>
+            {% endif %}       
+    {% endfor %}
+</ul>
+
+
+<h1>Notes from Coursera: CNNs in Tensorflow</h1>
+<ul>
+    {% for post in site.posts %}
+            {% if post.tags contains'CNN_Tensorflow' %}
+                <li><a href="https://shrichris.github.io/blog_gh{{post.url}}">{{ post.title }}</a></li>
+            {% endif %}       
+    {% endfor %}
+</ul>

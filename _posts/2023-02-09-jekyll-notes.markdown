@@ -3,7 +3,7 @@ layout: post
 title:  "Jekyll Notes"
 date:   2023-02-09 
 categories: notes
-tags: jekyll
+tags: [jekyll]
 ---
 
 # Getting Started with Jekyll
