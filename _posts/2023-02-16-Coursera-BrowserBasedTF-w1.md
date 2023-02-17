@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coursera - Broswr BAsed Models in TF - Week 1"
+title:  "Coursera - Browser Based Models in TF - Week 1"
 date:   2023-02-09 
 categories: notes
 learning_platform: [coursera, deeplearning.ai]

@@ -8,5 +8,4 @@ tags: [jekyll]
 # Markdown
 
 * [Markdown demo](https://markdown-it.github.io)
-* [Markdown guide - BAsic Syntax](https://www.markdownguide.org/basic-syntax/)ence/)
-
+* [Markdown guide - Basic Syntax](https://www.markdownguide.org/basic-syntax/)ence/)

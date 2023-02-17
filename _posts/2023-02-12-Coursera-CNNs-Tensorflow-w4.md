@@ -8,7 +8,6 @@ specialization: DeepLearning.AI TensorFlow Developer Professional Certificate
 course: CNNs in Tensorflow
 tags: [Coursera, CNN_Tensorflow] 
 ---
-
 # Notes from Week 4 of auditing the course
 
 Multi-class learning - moving from binary (2 class)classification problem, to 3 possible classes.
@@ -22,11 +21,6 @@ Computer graphics can be used to generate image data for training. We see this i
 * For multi-class classification, the class mode has be set to be "categorical"
 * In the model definition - for binary classification, the output layer used a sigmoid activation fucntion which outputs a value close to 1 for one value and close to zero for the other. For multi-class classification, the the output later will need a softmax activation function. Softmax will turn the outputs in the last layer into probabilities that sum to one.
 * For binary classification, when compiling the model, we used the binary cross entropy loss fucntion. For multi-class classification, we will use the categorical_cross entropy (or spare cross entropy) 
-
-```python
-
-
-```
 
 ## Jupyter Notebooks
 
